@@ -82,5 +82,4 @@ Supports manual typing, button clicks, Enter key calculation, and smooth UI anim
 
 ## 👨‍💻 Author
 **Mohamed Salih**  
-Front-End Developer  
-GitHub: https://github.com/Salih-111
+
