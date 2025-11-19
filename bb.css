@@ -1,0 +1,106 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(24, 4, 103);
+}
+p{
+    margin-left: 48%;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(228, 5, 217);
+    margin-bottom: 3px;
+    
+}
+.main-div{
+    padding: 20px;
+    margin-left: 40%;
+}
+.calc-in{
+    padding: 13px 21px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    border-radius: 15px;
+    border: 1px;   
+   font-size: 24px;
+   text-align: right;
+  
+}
+.btn{
+    height: 90px;
+    width: 90px;
+    border-radius: 33px;
+    border: 2px solid rgb(0, 255, 255);
+    background-color: rgb(153, 95, 160);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family:cursive;
+}
+.btn:hover {
+  background-color: #701abc;
+  transform: scale(1.1);
+  
+} */
+ body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4b008e, #b30086); 
+    font-family: cursive;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f3e7ff; 
+    margin-top: 30px;
+    text-shadow: 0 0 6px rgba(255, 150, 230, 0.4); 
+}
+
+.main-div {
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+.calc-in {
+    padding: 15px 53px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 150, 230, 0.6); 
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(4px);
+    color: #fff;
+    width: 280px;
+    margin-bottom: 20px;
+    text-align: right;
+    box-shadow: 0 0 8px rgba(255, 130, 220, 0.3); 
+}
+
+.btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 150, 230, 0.5); 
+    background: rgba(255, 255, 255, 0.12); 
+    color: #ffffff;
+    margin: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.25s ease;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 8px rgba(255, 120, 210, 0.35);
+}
+
+.btn:hover {
+    background-color: #cc3ba3; 
+    color: #fff;
+    transform: scale(1.10);
+    box-shadow: 0 0 14px rgba(255, 70, 200, 0.5);
+}
